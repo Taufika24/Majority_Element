@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,j,k,value;
+    int n,i,j,k;
     int check=0;
     
     printf("Enter size of array");
