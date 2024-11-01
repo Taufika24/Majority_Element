@@ -26,7 +26,13 @@ int main()
     for(k=0;k<10;k++)
     {
         if(count[k]>n/2)
+        {
             printf("Majority element is %d",k);
+            check=1;
+        }
     }
+    
+    if(check==0)
+        printf("No majority element");
 return 0;
 }
